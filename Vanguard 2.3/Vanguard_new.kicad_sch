@@ -9574,6 +9574,12 @@
 		(uuid "5b0f9425-12c5-4edd-9e22-f825e2b7cca8")
 	)
 	(junction
+		(at 66.04 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b877d75-2595-455c-98a5-d33aa83a9512")
+	)
+	(junction
 		(at 45.72 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10295,6 +10301,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 24.13) (xy 72.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b0d9ae-a347-4a43-99bb-afe7f0701c6b")
+	)
+	(wire
+		(pts
 			(xy 363.22 44.45) (xy 368.3 44.45)
 		)
 		(stroke
@@ -10625,7 +10641,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 24.13) (xy 72.39 24.13)
+			(xy 62.23 24.13) (xy 66.04 24.13)
 		)
 		(stroke
 			(width 0)
@@ -12105,6 +12121,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 22.86) (xy 66.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8119e7-e8b4-4ce5-932d-0cc32b7eb854")
+	)
+	(wire
+		(pts
 			(xy 114.3 138.43) (xy 116.84 138.43)
 		)
 		(stroke
@@ -12801,7 +12827,7 @@
 	)
 	(global_label "BATT_IN"
 		(shape input)
-		(at 66.04 24.13 90)
+		(at 66.04 22.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12811,7 +12837,7 @@
 		)
 		(uuid "0f5fc449-5baf-4f20-b592-49a36305b482")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 13.9481 90)
+			(at 66.04 12.6781 90)
 			(effects
 				(font
 					(size 1.27 1.27)
