@@ -478,7 +478,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "D:/_Umr/Projects/tarc rocketry/TARC/Vanguard/Vanguard_V2.2/Production",
       "pos_files": "D:/_Umr/Projects/tarc rocketry/TARC/Vanguard/Vanguard_V2.2/Production",
       "specctra_dsn": "",

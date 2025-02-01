@@ -9472,12 +9472,6 @@
 		(uuid "16a49755-7ae7-469b-aad9-052d8d8a6b62")
 	)
 	(junction
-		(at 19.05 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e26d06b-6383-4ce1-ae48-387439636abd")
-	)
-	(junction
 		(at 119.38 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9788,12 +9782,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed770dc3-2893-4a36-97f6-c7db76772f87")
-	)
-	(junction
-		(at 20.32 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f043f60a-e242-4646-b1fa-b19687c2d1e7")
 	)
 	(junction
 		(at 407.67 154.94)
@@ -10481,16 +10469,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 80.01) (xy 13.97 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33bdb882-a659-4b17-aa2f-5b2b8de30aac")
-	)
-	(wire
-		(pts
 			(xy 318.77 44.45) (xy 323.85 44.45)
 		)
 		(stroke
@@ -10568,16 +10546,6 @@
 			(type default)
 		)
 		(uuid "3fa0a2a2-5b0b-4693-966a-191c1aae06ed")
-	)
-	(wire
-		(pts
-			(xy 19.05 80.01) (xy 13.97 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4090bbd6-f259-47bf-8522-7dfe69811c95")
 	)
 	(wire
 		(pts
@@ -10798,16 +10766,6 @@
 			(type default)
 		)
 		(uuid "528058e2-71ed-4683-9d89-e74bf4e52f7c")
-	)
-	(wire
-		(pts
-			(xy 20.32 69.85) (xy 22.86 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5294421f-0008-4bfb-b508-767ba1608846")
 	)
 	(wire
 		(pts
@@ -11071,16 +11029,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 80.01) (xy 19.05 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ceb334-c553-4729-91fb-bcdfba8d661f")
-	)
-	(wire
-		(pts
 			(xy 64.77 41.91) (xy 64.77 40.64)
 		)
 		(stroke
@@ -11331,16 +11279,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 77.47) (xy 22.86 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f97ffd-a191-431b-a8f2-eb035419234e")
-	)
-	(wire
-		(pts
 			(xy 347.98 162.56) (xy 363.22 162.56)
 		)
 		(stroke
@@ -11378,16 +11316,6 @@
 			(type default)
 		)
 		(uuid "8d233413-8206-4030-9cda-da4116be2c18")
-	)
-	(wire
-		(pts
-			(xy 19.05 80.01) (xy 19.05 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e88b598-381d-4acf-9b7a-28a7bf6b20d0")
 	)
 	(wire
 		(pts
@@ -11871,16 +11799,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 69.85) (xy 20.32 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0fd9fa1-71aa-44af-a75c-89e4c6776230")
-	)
-	(wire
-		(pts
 			(xy 147.32 58.42) (xy 162.56 58.42)
 		)
 		(stroke
@@ -12348,16 +12266,6 @@
 			(type default)
 		)
 		(uuid "eef90fe7-6948-4a61-b60a-d0c34c9ea367")
-	)
-	(wire
-		(pts
-			(xy 20.32 62.23) (xy 20.32 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef946e5e-4ff5-4d51-91db-1d2e3422d263")
 	)
 	(wire
 		(pts
@@ -15383,72 +15291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 19.05 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "207a8e68-bb13-403f-b2ec-870bc382a968")
-		(property "Reference" "#PWR026"
-			(at 19.05 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 19.05 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b963caf-6b0e-4659-a76e-ae2240eda985")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 110.49 33.02 90)
 		(unit 1)
@@ -16190,76 +16032,6 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 22.86 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29141901-86a7-4ebc-b46f-7465d2f15bc1")
-		(property "Reference" "R1"
-			(at 25.4 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 25.4 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.082 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 22.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d634c81-72da-4d6d-a65a-3e621540aae7")
-		)
-		(pin "2"
-			(uuid "6c522ac8-7e49-4bd4-8bd7-b52325728b8a")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -20675,76 +20447,6 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 13.97 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83c862c3-7915-4020-ae9a-cc7787ac5805")
-		(property "Reference" "C1"
-			(at 17.78 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4n7"
-			(at 17.78 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 14.9352 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 13.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 13.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e796b17-ff12-4855-876c-38d8b4d5b282")
-		)
-		(pin "2"
-			(uuid "d77481e2-b8a2-41c3-842b-0be97aa97107")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "C1")
 					(unit 1)
 				)
 			)
