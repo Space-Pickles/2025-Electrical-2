@@ -9622,12 +9622,6 @@
 		(uuid "7155bf3c-3130-47ac-8d96-ea936999e897")
 	)
 	(junction
-		(at 278.13 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "719f87a2-c509-4267-97e1-50fa7d566c0a")
-	)
-	(junction
 		(at 43.18 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10437,16 +10431,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 34.29) (xy 278.13 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f77ae21-362f-4856-afd4-1a59640fe0a4")
-	)
-	(wire
-		(pts
 			(xy 374.65 114.3) (xy 377.19 114.3)
 		)
 		(stroke
@@ -10734,16 +10718,6 @@
 			(type default)
 		)
 		(uuid "4874a431-2d07-4453-a436-a5130227b95f")
-	)
-	(wire
-		(pts
-			(xy 279.4 34.29) (xy 278.13 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "488d7d38-7d79-4358-803d-ef29709e1d1f")
 	)
 	(wire
 		(pts
@@ -17456,73 +17430,6 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 279.4 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "476b1f56-a353-4d18-95fe-75cdbc47ab42")
-		(property "Reference" "#PWR078"
-			(at 275.59 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 283.21 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 279.4 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd96d93a-73fb-4874-af25-4beaaa988349")
-		)
-		(instances
-			(project "Vanguard_new"
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR078")
 					(unit 1)
 				)
 			)
