@@ -21440,7 +21440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 			(at 303.53 52.07 0)
 			(effects
 				(font
