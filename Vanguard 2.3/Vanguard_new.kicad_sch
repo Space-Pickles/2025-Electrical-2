@@ -10829,6 +10829,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 123.19) (xy 170.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d94f9e-0427-4f8e-a2a8-5ee5cb9b2e98")
+	)
+	(wire
+		(pts
 			(xy 43.18 43.18) (xy 48.26 43.18)
 		)
 		(stroke
@@ -11379,7 +11389,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 133.35) (xy 129.54 133.35)
+			(xy 116.84 133.35) (xy 130.81 133.35)
 		)
 		(stroke
 			(width 0)
@@ -11499,7 +11509,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 130.81) (xy 129.54 130.81)
+			(xy 119.38 130.81) (xy 130.81 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11936,6 +11946,16 @@
 			(type default)
 		)
 		(uuid "950755da-212b-4f65-888c-a5d4455447af")
+	)
+	(wire
+		(pts
+			(xy 171.45 138.43) (xy 170.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9826cb31-480e-4865-8bfb-185d866f021a")
 	)
 	(wire
 		(pts
@@ -12499,6 +12519,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 135.89) (xy 129.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaf8712-0c8c-472f-ac74-1a0bb8a0ecd8")
+	)
+	(wire
+		(pts
 			(xy 288.29 41.91) (xy 288.29 44.45)
 		)
 		(stroke
@@ -12789,6 +12819,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 125.73) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94ba53b-e39d-439d-9a0c-f02349e647c6")
+	)
+	(wire
+		(pts
 			(xy 222.25 58.42) (xy 219.71 58.42)
 		)
 		(stroke
@@ -12839,7 +12879,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 119.38 130.81)
+			(xy 119.38 128.27) (xy 119.38 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12936,6 +12976,16 @@
 			(type default)
 		)
 		(uuid "f50f2f21-6b34-43b7-95ea-ce47bcec4156")
+	)
+	(wire
+		(pts
+			(xy 171.45 120.65) (xy 170.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f543b46e-b30d-4ca7-a47c-71e0ddc07390")
 	)
 	(wire
 		(pts
@@ -13211,6 +13261,7 @@
 	)
 	(label "RX_UPDI"
 		(at 153.67 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13221,6 +13272,7 @@
 	)
 	(label "TX_UPDI"
 		(at 153.67 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14794,7 +14846,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 129.54 90)
+		(at 115.57 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14802,7 +14854,7 @@
 		(dnp no)
 		(uuid "03f0c57f-d86c-438f-8aa9-f846a3f84440")
 		(property "Reference" "R1"
-			(at 113.284 120.65 90)
+			(at 113.284 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14810,7 +14862,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 112.776 122.428 90)
+			(at 112.776 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +14870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 131.318 90)
+			(at 115.57 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,7 +14879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 129.54 0)
+			(at 115.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14836,7 +14888,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 129.54 0)
+			(at 115.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17542,6 +17594,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 127 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c79a058-91d4-491a-8a2d-8c2c2735c5d7")
+		(property "Reference" "#PWR086"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a08b54c6-9f9a-4cde-8365-34ea3763d674")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 187.96 35.56 0)
 		(unit 1)
@@ -18359,71 +18477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 127 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c22d8b9-fd95-45cc-b72c-e19d30d72102")
-		(property "Reference" "#PWR086"
-			(at 127 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 123.952 141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "377ae854-1209-4159-91dc-086f2a96d0de")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 407.67 162.56 0)
 		(unit 1)
@@ -18895,7 +18948,7 @@
 	)
 	(symbol
 		(lib_id "BMP390L:BMP390L")
-		(at 149.86 130.81 0)
+		(at 151.13 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18904,7 +18957,7 @@
 		(fields_autoplaced yes)
 		(uuid "5556cee0-3d70-440a-8868-eb41effc4fa1")
 		(property "Reference" "U10"
-			(at 149.86 113.03 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18912,7 +18965,7 @@
 			)
 		)
 		(property "Value" "BMP390L"
-			(at 149.86 115.57 0)
+			(at 151.13 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18920,7 +18973,7 @@
 			)
 		)
 		(property "Footprint" "BMP390L:XDCR_BMP390L"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18930,7 +18983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18939,7 +18992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18948,7 +19001,7 @@
 			)
 		)
 		(property "MF" "Bosch Sensortec"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18958,7 +19011,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18968,7 +19021,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18978,7 +19031,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18988,7 +19041,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=eda"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18998,7 +19051,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19008,7 +19061,7 @@
 			)
 		)
 		(property "PARTREV" "1.7"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +19071,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=snap"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19028,7 +19081,7 @@
 			)
 		)
 		(property "MP" "BMP390L"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19038,7 +19091,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Pressure Sensor Development Tools Evaluation Shuttle Board for the BMP390L\n                        \n"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19048,7 +19101,7 @@
 			)
 		)
 		(property "MANUFACTURER" "BOSCH"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19058,7 +19111,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19068,7 +19121,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "BMP390L"
-			(at 149.86 130.81 0)
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25820,7 +25873,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 111.76 129.54 90)
+		(at 111.76 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25828,7 +25881,7 @@
 		(dnp no)
 		(uuid "d4a076dc-1af4-4821-8213-4ed5dbe7a9bb")
 		(property "Reference" "#PWR084"
-			(at 115.57 129.54 0)
+			(at 115.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25837,7 +25890,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 112.014 127.508 90)
+			(at 112.014 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25846,7 +25899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 129.54 0)
+			(at 111.76 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25855,7 +25908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 129.54 0)
+			(at 111.76 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25864,7 +25917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 129.54 0)
+			(at 111.76 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
