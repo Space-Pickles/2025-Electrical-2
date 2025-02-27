@@ -13261,6 +13261,7 @@
 	)
 	(label "RX_UPDI"
 		(at 153.67 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13271,6 +13272,7 @@
 	)
 	(label "TX_UPDI"
 		(at 153.67 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20927,7 +20929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 334.01 163.83 0)
 			(effects
 				(font
@@ -26438,7 +26440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 31.75 39.37 0)
 			(effects
 				(font
