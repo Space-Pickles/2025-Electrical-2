@@ -1,4 +1,4 @@
-24557003626796166
+24560483666286843
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BMP390L
+XDCR_BMP390L
+
+
+0
+10
+10
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -49545,6 +49552,13 @@ four-pin M8
 0
 6
 5
+Connector_USB
+USB-C-SMD_JLC REPLACEMENT
+
+
+0
+28
+28
 Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle, http://www.molex.com/pdm_docs/sd/483930003_sd.pdf

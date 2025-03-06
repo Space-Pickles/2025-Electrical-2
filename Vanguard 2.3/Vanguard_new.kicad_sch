@@ -13261,7 +13261,6 @@
 	)
 	(label "RX_UPDI"
 		(at 153.67 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13272,7 +13271,6 @@
 	)
 	(label "TX_UPDI"
 		(at 153.67 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26440,7 +26438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "Connector_USB:USB-C-SMD_JLC REPLACEMENT"
 			(at 31.75 39.37 0)
 			(effects
 				(font
