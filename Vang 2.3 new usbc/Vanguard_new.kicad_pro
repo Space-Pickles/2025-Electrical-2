@@ -500,10 +500,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "D:/_Umr/Projects/tarc rocketry/TARC/Vanguard/Vanguard_V2.2/Production",
-      "pos_files": "D:/_Umr/Projects/tarc rocketry/TARC/Vanguard/Vanguard_V2.2/Production",
+      "plot": "production/",
+      "pos_files": "production/",
       "specctra_dsn": "",
-      "step": "Vanguard_new.step",
+      "step": "Vanguard_new.stl",
       "svg": "",
       "vrml": ""
     },
