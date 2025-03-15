@@ -25901,7 +25901,7 @@
 	)
 	(symbol
 		(lib_id "TPS82130SILR[1]:TPS82130SILR")
-		(at 275.59 233.68 0)
+		(at 273.05 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25910,7 +25910,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9e257aa-9a69-4fd6-940e-d37dc11de961")
 		(property "Reference" "U6"
-			(at 275.59 218.44 0)
+			(at 273.05 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25918,7 +25918,7 @@
 			)
 		)
 		(property "Value" "TPS82130SILR"
-			(at 275.59 220.98 0)
+			(at 273.05 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25926,7 +25926,7 @@
 			)
 		)
 		(property "Footprint" "TPS82130SILR:CONV_TPS82140SILR"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25936,7 +25936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25945,7 +25945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25954,7 +25954,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25964,7 +25964,7 @@
 			)
 		)
 		(property "Description_1" "17-V input 3-A step-down converter module with integrated inductor"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25974,7 +25974,7 @@
 			)
 		)
 		(property "Package" "USIP-8 Texas Instruments"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25984,7 +25984,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25994,7 +25994,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS82130SILR/Texas+Instruments/view-part/?ref=snap"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26004,7 +26004,7 @@
 			)
 		)
 		(property "MP" "TPS82130SILR"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26014,7 +26014,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26024,7 +26024,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TPS82130SILR/Texas+Instruments/view-part/?ref=eda"
-			(at 275.59 233.68 0)
+			(at 273.05 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
