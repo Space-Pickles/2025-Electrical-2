@@ -16703,7 +16703,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 365.76 29.5274 90)
 			(effects
 				(font
@@ -16712,7 +16712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 361.95 26.67 0)
 			(effects
 				(font
