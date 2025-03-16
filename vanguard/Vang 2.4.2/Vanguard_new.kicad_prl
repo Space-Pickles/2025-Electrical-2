@@ -28,9 +28,7 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [
-      12
-    ],
+    "visible_items": [],
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
