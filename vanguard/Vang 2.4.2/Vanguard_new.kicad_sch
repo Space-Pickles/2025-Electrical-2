@@ -24325,15 +24325,15 @@
 		(fields_autoplaced yes)
 		(uuid "c927d6f7-af86-4302-b58d-7337d8fb0714")
 		(property "Reference" "L1"
-			(at 359.41 152.4 90)
+			(at 359.41 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 359.41 154.94 90)
+		(property "Value" "6u8"
+			(at 359.41 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24358,13 +24358,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 359.41 157.48 0)
+		(property "Description" "SMDRH127"
+			(at 359.41 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
