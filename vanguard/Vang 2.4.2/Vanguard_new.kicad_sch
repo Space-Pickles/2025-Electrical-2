@@ -10075,6 +10075,12 @@
 		(uuid "07cb02d9-17fb-4c28-97fa-7e41ea74be97")
 	)
 	(junction
+		(at 106.68 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d7320b3-3e29-4f0f-9239-43e56da9cd20")
+	)
+	(junction
 		(at 97.79 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10607,10 +10613,6 @@
 	(no_connect
 		(at 243.84 119.38)
 		(uuid "dc366920-da6a-48ec-8a59-2f168718faa5")
-	)
-	(no_connect
-		(at 52.07 162.56)
-		(uuid "dddf75e2-605b-4380-a6b2-4b2560c8b843")
 	)
 	(no_connect
 		(at 43.18 52.07)
@@ -11226,6 +11228,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 162.56) (xy 52.07 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43548bda-be5c-4dfc-9220-84e422859974")
+	)
+	(wire
+		(pts
 			(xy 171.45 43.18) (xy 175.26 43.18)
 		)
 		(stroke
@@ -11366,7 +11378,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 160.02) (xy 109.22 160.02)
+			(xy 93.98 160.02) (xy 106.68 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12843,6 +12855,16 @@
 			(type default)
 		)
 		(uuid "d5929095-6c1c-4724-ad50-9cd4154ebf66")
+	)
+	(wire
+		(pts
+			(xy 106.68 160.02) (xy 109.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64b3c0c-fafd-4267-acc4-850905b51869")
 	)
 	(wire
 		(pts
@@ -14918,7 +14940,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 114.808 125.222 90)
 			(effects
 				(font
@@ -15637,6 +15659,71 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19de7e4f-6c30-486f-b6cd-9102d9807201")
+		(property "Reference" "TP7"
+			(at 44.958 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 44.958 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e64a6121-1301-4b6c-8820-518f7a50f84c")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -17056,7 +17143,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 47.498 150.368 90)
 			(effects
 				(font
@@ -18019,7 +18106,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 117.094 162.56 90)
 			(effects
 				(font
@@ -19606,7 +19693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 35.56 163.8299 0)
 			(effects
 				(font
@@ -20940,7 +21027,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0u1"
 			(at 88.138 182.118 90)
 			(effects
 				(font
@@ -21236,7 +21323,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 113.03 157.226 90)
 			(effects
 				(font
@@ -23719,6 +23806,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5fe79dd-5c9b-4045-ba56-22eb7a6dc8f5")
+		(property "Reference" "TP8"
+			(at 109.22 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.22 157.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bb9543a-f5e2-4954-bbc3-a661c54ae84a")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 22.86 162.56 0)
 		(unit 1)
@@ -23737,7 +23891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 25.4 163.8299 0)
 			(effects
 				(font
@@ -26641,7 +26795,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 113.792 140.462 90)
 			(effects
 				(font
