@@ -17260,7 +17260,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "59541471-ce19-4f87-8395-626a17aa99ee")
 		(property "Reference" "U5"
 			(at 162.56 173.99 0)
@@ -17271,7 +17270,7 @@
 			)
 		)
 		(property "Value" "BD1020HFV-TR"
-			(at 162.56 176.53 0)
+			(at 165.862 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
