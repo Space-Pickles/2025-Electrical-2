@@ -27205,7 +27205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SLF7055T-6R8N2R8-3PF:IND_SLF7055T-6R8N2R8-3PF"
+		(property "Footprint" "inductor:IND_SLF7055T-6R8N2R8-3PF.kicad_mod"
 			(at 356.87 157.48 0)
 			(effects
 				(font
