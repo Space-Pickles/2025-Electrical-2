@@ -15052,7 +15052,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 290.83 111.506 90)
 			(effects
 				(font
@@ -15525,7 +15525,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 331.47 122.682 90)
 			(effects
 				(font
@@ -21370,7 +21370,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 290.83 122.682 90)
 			(effects
 				(font
@@ -23012,7 +23012,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 290.83 116.84 90)
 			(effects
 				(font
@@ -23349,7 +23349,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 331.47 116.84 90)
 			(effects
 				(font
@@ -24820,7 +24820,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 331.47 111.506 90)
 			(effects
 				(font
