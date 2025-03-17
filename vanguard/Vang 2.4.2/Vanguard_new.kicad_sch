@@ -7954,6 +7954,370 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPS82130SILR[1]:TPS82130SILR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 11.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPS82130SILR"
+				(at -12.7 -14.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TPS82130SILR:CONV_TPS82140SILR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "17-V input 3-A step-down converter module with integrated inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "USIP-8 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS82130SILR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPS82130SILR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS82130SILR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPS82130SILR_0_0"
+				(rectangle
+					(start -12.7 -10.16)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "SS/TR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(hide yes)
@@ -8245,6 +8609,291 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VLS3010ET-6R8M-CA[1]:VLS3010ET-6R8M-CA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -10.16 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "VLS3010ET-6R8M-CA"
+				(at -10.16 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "VLS3010ET-6R8M-CA:IND_VLS3010ET-6R8M-CA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "NON STANDARD-2 TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/VLS3010ET-6R8M-CA/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "20171026"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/VLS3010ET-6R8M-CA/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "VLS3010ET-6R8M-CA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "6.8 µH Shielded Drum Core, Wirewound Inductor 1 A 312mOhm Max Nonstandard"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "VLS3010ET-6R8M-CA_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -8883,7 +9532,7 @@
 	)
 	(text "SERVO POWER\n\n"
 		(exclude_from_sim no)
-		(at 339.852 147.066 0)
+		(at 336.042 145.796 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8962,6 +9611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34e07740-9179-4bb9-a900-2d62f63c8ef4")
+	)
+	(junction
+		(at 326.39 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "355671a2-c4b2-4e83-a93d-2fe5d42b4857")
 	)
 	(junction
 		(at 162.56 60.96)
@@ -9270,12 +9925,6 @@
 		(uuid "f4c02fad-3d39-4429-8cc0-37f2b5afd8be")
 	)
 	(junction
-		(at 342.9 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9c2c9d5-8a7e-4de9-bbf0-3d3365667547")
-	)
-	(junction
 		(at 119.38 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9497,13 +10146,13 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 162.56) (xy 347.98 162.56)
+			(xy 369.57 157.48) (xy 370.84 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07166bc1-7d9f-4b70-a63a-c1517884d8e5")
+		(uuid "07e51c0f-7234-4483-963f-a8d6e3887342")
 	)
 	(wire
 		(pts
@@ -9637,16 +10286,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 157.48) (xy 345.44 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d7b9df-a340-4cea-8c19-bad973f9f805")
-	)
-	(wire
-		(pts
 			(xy 377.19 114.3) (xy 383.54 114.3)
 		)
 		(stroke
@@ -9747,7 +10386,7 @@
 	)
 	(polyline
 		(pts
-			(xy 325.12 193.04) (xy 325.12 139.7)
+			(xy 314.96 193.04) (xy 314.96 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10364,16 +11003,6 @@
 			(type default)
 		)
 		(uuid "59d748ff-c02a-48f3-96ab-3440a81236b9")
-	)
-	(wire
-		(pts
-			(xy 353.06 157.48) (xy 355.6 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7dd096-a0fd-4e7b-8694-f2981f82e08f")
 	)
 	(wire
 		(pts
@@ -11237,7 +11866,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 166.37) (xy 339.09 170.18)
+			(xy 321.31 165.1) (xy 321.31 170.18)
 		)
 		(stroke
 			(width 0)
@@ -11307,13 +11936,13 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 162.56) (xy 339.09 163.83)
+			(xy 337.82 157.48) (xy 344.17 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3f42a30-607c-4f3f-89c8-7336e25117ae")
+		(uuid "b3d5f0f0-3ffa-436a-a2eb-524b8278ba7c")
 	)
 	(wire
 		(pts
@@ -11374,6 +12003,16 @@
 			(type default)
 		)
 		(uuid "bc1c6963-e9ec-4b0f-baf4-485389cae3e9")
+	)
+	(wire
+		(pts
+			(xy 321.31 162.56) (xy 326.39 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8267e8-26ee-49e7-90b8-93de13de8bdb")
 	)
 	(wire
 		(pts
@@ -11577,7 +12216,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 157.48) (xy 342.9 162.56)
+			(xy 326.39 157.48) (xy 326.39 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11634,6 +12273,16 @@
 			(type default)
 		)
 		(uuid "d1341438-2576-4878-bc7b-5767f190b118")
+	)
+	(wire
+		(pts
+			(xy 326.39 157.48) (xy 330.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1940be9-cb15-4859-8e06-003765847b56")
 	)
 	(wire
 		(pts
@@ -11957,6 +12606,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 162.56) (xy 347.98 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5cb7e4-e3a0-46d9-ae34-4e9592911677")
+	)
+	(wire
+		(pts
 			(xy 119.38 38.1) (xy 121.92 38.1)
 		)
 		(stroke
@@ -12007,16 +12666,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 157.48) (xy 370.84 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d2f1b8-46e4-4093-ac46-b5b3aad811af")
-	)
-	(wire
-		(pts
 			(xy 158.75 231.14) (xy 170.18 231.14)
 		)
 		(stroke
@@ -12027,7 +12676,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 170.18) (xy 344.17 170.18)
+			(xy 321.31 170.18) (xy 344.17 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12167,13 +12816,13 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 162.56) (xy 342.9 162.56)
+			(xy 326.39 163.83) (xy 326.39 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9ca157a-5b12-41f6-9c02-53877bfd790e")
+		(uuid "fb33b310-22a4-46be-9ea7-ca4efaf8de49")
 	)
 	(wire
 		(pts
@@ -14062,6 +14711,195 @@
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VLS3010ET-6R8M-CA[1]:VLS3010ET-6R8M-CA")
+		(at 356.87 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "095147a1-e80b-4040-a4f0-b738cc6d79b9")
+		(property "Reference" "L1"
+			(at 356.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VLS3010ET-6R8M-CA"
+			(at 356.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VLS3010ET-6R8M-CA:IND_VLS3010ET-6R8M-CA"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TDK"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD-2 TDK"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/VLS3010ET-6R8M-CA/TDK/view-part/?ref=eda"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "20171026"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VLS3010ET-6R8M-CA/TDK/view-part/?ref=snap"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "VLS3010ET-6R8M-CA"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "6.8 µH Shielded Drum Core, Wirewound Inductor 1 A 312mOhm Max Nonstandard"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ebaa3a4-c166-4e49-9c04-674c947b813c")
+		)
+		(pin "2"
+			(uuid "db90e070-6437-4531-b44b-ae788a03174a")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -19360,7 +20198,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 334.01 163.83 0)
+		(at 316.23 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19369,7 +20207,7 @@
 		(fields_autoplaced yes)
 		(uuid "72aa81c9-028f-4926-aac4-702e2d8dd4f2")
 		(property "Reference" "J7"
-			(at 334.645 158.75 0)
+			(at 316.865 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19377,7 +20215,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 334.645 161.29 0)
+			(at 316.865 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19385,7 +20223,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 334.01 163.83 0)
+			(at 316.23 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19394,7 +20232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.01 163.83 0)
+			(at 316.23 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19403,7 +20241,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 334.01 163.83 0)
+			(at 316.23 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21091,7 +21929,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 349.25 157.48 270)
+		(at 334.01 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21099,7 +21937,7 @@
 		(dnp no)
 		(uuid "9bda144b-e344-4a51-ae28-64456b9af8ad")
 		(property "Reference" "R28"
-			(at 347.726 153.162 90)
+			(at 332.486 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21107,7 +21945,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 349.25 155.194 90)
+			(at 334.01 155.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21115,7 +21953,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 349.25 155.702 90)
+			(at 334.01 155.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21124,7 +21962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 157.48 0)
+			(at 334.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21133,7 +21971,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 349.25 157.48 0)
+			(at 334.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22159,6 +22997,185 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS82130SILR[1]:TPS82130SILR")
+		(at 326.39 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b50947da-ea9a-41d8-8412-9eae3d08a734")
+		(property "Reference" "U2"
+			(at 326.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS82130SILR"
+			(at 326.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS82130SILR:CONV_TPS82140SILR"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "17-V input 3-A step-down converter module with integrated inductor"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "USIP-8 Texas Instruments"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS82130SILR/Texas+Instruments/view-part/?ref=snap"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS82130SILR"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS82130SILR/Texas+Instruments/view-part/?ref=eda"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "85949126-5a5c-4b09-9935-88cc659bf1d2")
+		)
+		(pin "6"
+			(uuid "c20007ef-f867-422a-a180-bea75a1b06aa")
+		)
+		(pin "1"
+			(uuid "b4ca8263-8e28-4da5-9417-c1eba71db7df")
+		)
+		(pin "7"
+			(uuid "e8e948e5-6a8b-4fb5-98e3-8f8f68e6e8a7")
+		)
+		(pin "5"
+			(uuid "54c91bac-8566-4786-972a-60e5e7a44092")
+		)
+		(pin "12"
+			(uuid "a2f6d65a-e7bb-4c0a-b3c2-90ae075c719b")
+		)
+		(pin "3"
+			(uuid "436c3c16-56d5-4ec6-8bfa-8bf14e07f8b0")
+		)
+		(pin "9"
+			(uuid "943e6b5d-d478-4744-8bc6-063456a17821")
+		)
+		(pin "2"
+			(uuid "62b9bc3f-80f6-48a2-9995-1d3f232cdbbf")
+		)
+		(pin "4"
+			(uuid "6efa2b58-ef7f-4e92-ba5e-c3b3c549dd11")
+		)
+		(pin "10"
+			(uuid "85f459f5-5834-45f1-b6c4-9f8b0fabaef2")
+		)
+		(pin "8"
+			(uuid "06b04484-4a5c-4569-bb0c-2136a24c13e0")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "U2")
 					(unit 1)
 				)
 			)
