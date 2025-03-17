@@ -9984,7 +9984,7 @@
 	)
 	(text "INPUT USB"
 		(exclude_from_sim no)
-		(at 270.764 61.722 0)
+		(at 227.33 20.066 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -10477,6 +10477,10 @@
 	(no_connect
 		(at 391.16 167.64)
 		(uuid "1ed3b551-5c8c-4333-81b9-fcf1de99bc95")
+	)
+	(no_connect
+		(at 20.32 62.23)
+		(uuid "21f3592f-5800-4654-8afb-93caeb74685b")
 	)
 	(no_connect
 		(at 147.32 33.02)
@@ -15259,7 +15263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 208.28 52.0699 0)
 			(effects
 				(font
@@ -15835,7 +15839,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 114.808 35.306 90)
 			(effects
 				(font
@@ -16511,7 +16515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 259.08 54.6099 0)
 			(effects
 				(font
@@ -17260,7 +17264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 190.5 36.8299 0)
 			(effects
 				(font
@@ -20536,7 +20540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 64.77 66.0399 0)
 			(effects
 				(font
@@ -21929,7 +21933,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 50.8 13.97 90)
 			(effects
 				(font
@@ -21996,7 +22000,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k1"
 			(at 52.324 29.464 90)
 			(effects
 				(font
@@ -22063,7 +22067,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 114.808 40.386 90)
 			(effects
 				(font
@@ -23353,7 +23357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 242.57 54.6099 0)
 			(effects
 				(font
@@ -23602,7 +23606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 224.79 52.0699 0)
 			(effects
 				(font
@@ -23806,7 +23810,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 168.656 82.804 90)
 			(effects
 				(font
@@ -24145,7 +24149,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 156.464 82.804 90)
 			(effects
 				(font
@@ -25501,7 +25505,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 161.544 52.324 90)
 			(effects
 				(font
@@ -26439,7 +26443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 173.99 36.8299 0)
 			(effects
 				(font
@@ -26508,7 +26512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4n7"
 			(at 54.61 66.0399 0)
 			(effects
 				(font
@@ -26709,7 +26713,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k1"
 			(at 52.07 31.75 90)
 			(effects
 				(font
