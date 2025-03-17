@@ -3473,168 +3473,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -7824,6 +7662,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SMDRI127-6R8NT:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SMDRI127-6R8NT"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at -0.254 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start -2.54 0)
+					(mid -1.905 0.6323)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 0)
+					(mid -0.635 0.6323)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 0.6323)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.6323)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Motion:BNO055"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10090,12 +10090,6 @@
 		(uuid "34e07740-9179-4bb9-a900-2d62f63c8ef4")
 	)
 	(junction
-		(at 345.44 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "354dde84-be75-4585-ae9c-7ca06da87909")
-	)
-	(junction
 		(at 162.56 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10402,6 +10396,12 @@
 		(uuid "f4c02fad-3d39-4429-8cc0-37f2b5afd8be")
 	)
 	(junction
+		(at 342.9 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9c2c9d5-8a7e-4de9-bbf0-3d3365667547")
+	)
+	(junction
 		(at 119.38 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10623,6 +10623,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 162.56) (xy 347.98 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07166bc1-7d9f-4b70-a63a-c1517884d8e5")
+	)
+	(wire
+		(pts
 			(xy 386.08 185.42) (xy 386.08 182.88)
 		)
 		(stroke
@@ -10703,16 +10713,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 162.56) (xy 347.98 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7d19e9-6efb-461c-86ec-585fb08f66c6")
-	)
-	(wire
-		(pts
 			(xy 57.15 59.69) (xy 60.96 59.69)
 		)
 		(stroke
@@ -10760,6 +10760,16 @@
 			(type default)
 		)
 		(uuid "149f32dc-59d1-4fc6-a684-867ab227b0d6")
+	)
+	(wire
+		(pts
+			(xy 342.9 157.48) (xy 345.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d7b9df-a340-4cea-8c19-bad973f9f805")
 	)
 	(wire
 		(pts
@@ -11110,16 +11120,6 @@
 			(type default)
 		)
 		(uuid "39290fa7-6484-4227-8028-2fce2bd8c4d7")
-	)
-	(wire
-		(pts
-			(xy 345.44 157.48) (xy 347.98 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a3d138d-7337-49c5-aadc-ef5a032a6324")
 	)
 	(wire
 		(pts
@@ -11490,6 +11490,16 @@
 			(type default)
 		)
 		(uuid "59d748ff-c02a-48f3-96ab-3440a81236b9")
+	)
+	(wire
+		(pts
+			(xy 353.06 157.48) (xy 355.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7dd096-a0fd-4e7b-8694-f2981f82e08f")
 	)
 	(wire
 		(pts
@@ -12693,7 +12703,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 157.48) (xy 345.44 162.56)
+			(xy 342.9 157.48) (xy 342.9 162.56)
 		)
 		(stroke
 			(width 0)
@@ -13283,7 +13293,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 162.56) (xy 345.44 162.56)
+			(xy 339.09 162.56) (xy 342.9 162.56)
 		)
 		(stroke
 			(width 0)
@@ -22208,7 +22218,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 351.79 157.48 270)
+		(at 349.25 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22216,7 +22226,7 @@
 		(dnp no)
 		(uuid "9bda144b-e344-4a51-ae28-64456b9af8ad")
 		(property "Reference" "R28"
-			(at 350.266 153.162 90)
+			(at 347.726 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22224,7 +22234,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 351.79 155.194 90)
+			(at 349.25 155.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22232,7 +22242,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 351.79 155.702 90)
+			(at 349.25 155.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22241,7 +22251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 157.48 0)
+			(at 349.25 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22250,7 +22260,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 351.79 157.48 0)
+			(at 349.25 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24315,73 +24325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 359.41 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c927d6f7-af86-4302-b58d-7337d8fb0714")
-		(property "Reference" "L1"
-			(at 359.41 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6u8"
-			(at 359.41 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 359.41 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 359.41 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMDRH127"
-			(at 359.41 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c3fe8c14-daa1-4934-993c-3165aa4729a0")
-		)
-		(pin "1"
-			(uuid "261b1fea-bd5b-4b18-b8d7-3341088d2ae9")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 214.63 55.88 270)
 		(unit 1)
@@ -25848,6 +25791,73 @@
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMDRI127-6R8NT:L")
+		(at 359.41 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1e780b7-ec83-4a6a-bfff-3a33ad77649c")
+		(property "Reference" "SMDRI127-6R8NT1"
+			(at 361.188 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6u8"
+			(at 359.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.41 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 359.156 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8c907f5-b4c9-44fe-b183-244a48f8a059")
+		)
+		(pin "2"
+			(uuid "1d7da74a-7ca7-4766-be72-0720cc6f65f0")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "SMDRI127-6R8NT1")
 					(unit 1)
 				)
 			)
