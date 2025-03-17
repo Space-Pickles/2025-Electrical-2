@@ -18464,7 +18464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP390L:XDCR_BMP390L"
+		(property "Footprint" "barometer:XDCR_BMP390L.kicad_mod"
 			(at 151.13 130.81 0)
 			(effects
 				(font
@@ -23582,7 +23582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS82130SILR:CONV_TPS82140SILR"
+		(property "Footprint" "buck_convertor:CONV_TPS82140SILR.kicad_mod"
 			(at 326.39 43.18 0)
 			(effects
 				(font
