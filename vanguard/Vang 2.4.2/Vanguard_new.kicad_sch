@@ -16267,7 +16267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KXG1203C:XDCR_KXG1203C"
+		(property "Footprint" "buzzer:XDCR_KXG1203C.kicad_mod"
 			(at 407.67 107.95 0)
 			(effects
 				(font
