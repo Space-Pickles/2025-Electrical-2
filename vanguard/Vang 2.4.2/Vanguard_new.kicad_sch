@@ -15690,7 +15690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 48.26 157.48 0)
 			(effects
 				(font
@@ -26005,7 +26005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB-C-SMD_JLC REPLACEMENT"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_124019772112A"
 			(at 31.75 39.37 0)
 			(effects
 				(font
