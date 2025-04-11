@@ -2466,6 +2466,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3691,309 +3852,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KXG1203C[1]:KXG1203C"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LS"
-				(at -2.54 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "KXG1203C"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "KXG1203C:XDCR_KXG1203C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Kingstate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "9.5 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/KXG1203C/Kingstate/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1.3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/KXG1203C/Kingstate/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "KXG1203C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Magnetic Indicator(Active Buzzer), 85Hz, 2.3 dB (SPL), 12 dia.(Ø)/L,  Width, 9.5 Height, Pine Type"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Kingstate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "KXG1203C_0_0"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 1.397 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 1.397 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 -2.54)
-					(mid 1.2866 1.27)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -4.318 2.54 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "-"
-					(at -4.318 -1.27 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -10441,6 +10299,12 @@
 		(uuid "8053e9bc-5e84-4a07-92c8-ddf1da99e6a5")
 	)
 	(junction
+		(at 382.27 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834db2bc-00ec-4993-bc6a-d4863e0a09f8")
+	)
+	(junction
 		(at 53.34 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10535,12 +10399,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d28f80fd-e208-4b5d-9e8f-e6bc90bfe4ca")
-	)
-	(junction
-		(at 377.19 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d53bcb13-19de-458b-a45b-6cfc40fed3d5")
 	)
 	(junction
 		(at 375.92 185.42)
@@ -10878,6 +10736,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 102.87) (xy 383.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b69c80e-9556-4626-9361-b7e99a614e15")
+	)
+	(wire
+		(pts
 			(xy 50.8 69.85) (xy 58.42 69.85)
 		)
 		(stroke
@@ -10955,16 +10823,6 @@
 			(type default)
 		)
 		(uuid "149f32dc-59d1-4fc6-a684-867ab227b0d6")
-	)
-	(wire
-		(pts
-			(xy 377.19 114.3) (xy 383.54 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "150e0a72-7c13-4f7c-9645-4040ed72fca4")
 	)
 	(wire
 		(pts
@@ -11238,16 +11096,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 114.3) (xy 377.19 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "308be61c-db4b-40b2-beec-63381c007ca1")
-	)
-	(wire
-		(pts
 			(xy 311.15 114.3) (xy 311.15 109.22)
 		)
 		(stroke
@@ -11515,16 +11363,6 @@
 			(type default)
 		)
 		(uuid "4ac33f4c-266d-43f1-83ff-d32a4a894420")
-	)
-	(wire
-		(pts
-			(xy 391.16 97.79) (xy 405.13 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4b8aa4-28af-4cea-aa2c-bb5b5acfe942")
 	)
 	(wire
 		(pts
@@ -11828,16 +11666,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 97.79) (xy 391.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d63695-df31-4262-95aa-39ce92b30964")
-	)
-	(wire
-		(pts
 			(xy 69.85 147.32) (xy 69.85 146.05)
 		)
 		(stroke
@@ -11865,6 +11693,16 @@
 			(type default)
 		)
 		(uuid "6483c624-382a-41de-888e-2d84edeb1a75")
+	)
+	(wire
+		(pts
+			(xy 379.73 102.87) (xy 382.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690e2185-c7de-4e1b-a507-d2376613dc0c")
 	)
 	(wire
 		(pts
@@ -12015,6 +11853,16 @@
 			(type default)
 		)
 		(uuid "7376d558-320f-403b-8d5e-45183ae20828")
+	)
+	(wire
+		(pts
+			(xy 382.27 113.03) (xy 382.27 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740b7b78-1528-41e6-8190-5696710d21aa")
 	)
 	(wire
 		(pts
@@ -12175,16 +12023,6 @@
 			(type default)
 		)
 		(uuid "8450d539-7795-4ae1-9306-70213ec7e125")
-	)
-	(wire
-		(pts
-			(xy 405.13 110.49) (xy 405.13 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "848869c6-7e93-4f9b-8fce-4274d8e8ddd4")
 	)
 	(wire
 		(pts
@@ -12908,16 +12746,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 114.3) (xy 377.19 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb1a8100-2e16-466b-ba6e-257ba6ea47fb")
-	)
-	(wire
-		(pts
 			(xy 375.92 185.42) (xy 375.92 182.88)
 		)
 		(stroke
@@ -12955,6 +12783,16 @@
 			(type default)
 		)
 		(uuid "cf521585-5770-4f4d-a5a7-cb29f933ed02")
+	)
+	(wire
+		(pts
+			(xy 382.27 102.87) (xy 382.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa45dff-7659-4c4c-944c-7ed98bfa2daf")
 	)
 	(wire
 		(pts
@@ -13045,6 +12883,16 @@
 			(type default)
 		)
 		(uuid "d5929095-6c1c-4724-ad50-9cd4154ebf66")
+	)
+	(wire
+		(pts
+			(xy 386.08 97.79) (xy 386.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ac8898-6bbb-4509-bf57-c4d991b583a3")
 	)
 	(wire
 		(pts
@@ -13245,16 +13093,6 @@
 			(type default)
 		)
 		(uuid "e7bf81b0-384e-47ac-bb53-bbb97535d3a8")
-	)
-	(wire
-		(pts
-			(xy 391.16 119.38) (xy 391.16 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7cdc124-1c0d-4cc9-b104-648024e76f50")
 	)
 	(wire
 		(pts
@@ -13548,16 +13386,6 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 97.79) (xy 405.13 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb82caff-99e2-4c98-8873-be4b2a260f45")
-	)
-	(wire
-		(pts
 			(xy 375.92 39.37) (xy 378.46 39.37)
 		)
 		(stroke
@@ -13638,6 +13466,28 @@
 			)
 		)
 	)
+	(global_label "BUZZER"
+		(shape input)
+		(at 379.73 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06602ade-9180-435f-adfa-1be371339cbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 369.3063 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX0"
 		(shape input)
 		(at 213.36 144.78 180)
@@ -13678,28 +13528,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUZZER"
-		(shape input)
-		(at 374.65 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08e94633-c270-45d6-885c-d891c45b20a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.2263 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -15451,6 +15279,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 391.16 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cece771-5f3d-4151-a1a4-c0d799527343")
+		(property "Reference" "#PWR070"
+			(at 391.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 391.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 391.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c0226a6-4ca2-4f6d-9731-fbda36a2be87")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 205.74 50.8 0)
 		(unit 1)
@@ -16430,17 +16324,26 @@
 		)
 	)
 	(symbol
-		(lib_id "KXG1203C[1]:KXG1203C")
-		(at 407.67 107.95 0)
+		(lib_id "power:+3.3V")
+		(at 386.08 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "227ab6de-1bdd-45b6-bb70-a35da39021a5")
-		(property "Reference" "LS1"
-			(at 414.02 105.4099 0)
+		(uuid "22cfa348-b301-40e9-9dc3-4b3976b95aa6")
+		(property "Reference" "#PWR02"
+			(at 389.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 382.27 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16448,27 +16351,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KXG1203C"
-			(at 414.02 107.9499 0)
+		(property "Footprint" ""
+			(at 386.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "buzzer:XDCR_KXG1203C.kicad_mod"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 407.67 107.95 0)
+			(at 386.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16476,8 +16369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 407.67 107.95 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 386.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16485,136 +16378,83 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Kingstate"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "9.5 mm"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/KXG1203C/Kingstate/view-part/?ref=eda"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.3"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/KXG1203C/Kingstate/view-part/?ref=snap"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "KXG1203C"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Magnetic Indicator(Active Buzzer), 85Hz, 2.3 dB (SPL), 12 dia.(Ø)/L,  Width, 9.5 Height, Pine Type"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Kingstate"
-			(at 407.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "033ea7f3-477d-4a68-97e6-f0c1afe65507")
-		)
-		(pin "N"
-			(uuid "77df3c57-c11c-4b6b-a950-7bff6fe13847")
+		(pin "1"
+			(uuid "35c90cd5-f53e-40e4-894a-8da8d685e3e5")
 		)
 		(instances
-			(project ""
+			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "LS1")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 388.62 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24c88e8f-64c4-4f84-a2dd-630febbf9383")
+		(property "Reference" "BZ1"
+			(at 392.43 93.2248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 392.43 95.7648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_Kingstate_KCG0601"
+			(at 386.08 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 388.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92db802c-ce86-4002-b3a5-624ef4941278")
+		)
+		(pin "2"
+			(uuid "2a8967dd-770e-47c0-a98e-de9850f57439")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -16830,6 +16670,76 @@
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 382.27 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b49b88b-2d7c-4d40-b89c-9dcd9449afb6")
+		(property "Reference" "R34"
+			(at 384.81 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2"
+			(at 384.81 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 380.492 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 382.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1178c568-cea2-4202-ac58-d2eb584a6771")
+		)
+		(pin "2"
+			(uuid "7e3b5985-7705-49bc-96d7-afbbb4c30a66")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -20343,72 +20253,6 @@
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 391.16 130.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b54f17a-d25f-435b-b833-823d44eae89d")
-		(property "Reference" "#PWR0130"
-			(at 391.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 391.16 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 391.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13545b0e-1e60-4961-bfb6-b1d693f097e3")
-		)
-		(instances
-			(project "Vanguard_new"
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -26101,7 +25945,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 388.62 114.3 0)
+		(at 388.62 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26109,7 +25953,7 @@
 		(dnp no)
 		(uuid "d58be735-5e40-443e-a16b-eeb27c0dbec6")
 		(property "Reference" "Q4"
-			(at 381.254 109.982 0)
+			(at 400.812 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26117,7 +25961,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 379.222 108.204 0)
+			(at 398.78 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26125,7 +25969,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 393.7 116.205 0)
+			(at 393.7 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26136,7 +25980,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 393.7 118.11 0)
+			(at 393.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26146,7 +25990,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 388.62 114.3 0)
+			(at 388.62 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26307,7 +26151,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 377.19 128.27 0)
+		(at 382.27 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26315,8 +26159,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db255393-4e9a-4074-97c1-bdc169451af4")
-		(property "Reference" "#PWR0131"
-			(at 377.19 134.62 0)
+		(property "Reference" "#PWR069"
+			(at 382.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26325,7 +26169,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 377.19 133.35 0)
+			(at 382.27 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26333,7 +26177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 128.27 0)
+			(at 382.27 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26342,7 +26186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 128.27 0)
+			(at 382.27 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26351,7 +26195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 377.19 128.27 0)
+			(at 382.27 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26363,9 +26207,9 @@
 			(uuid "2c029f5d-c4f3-4a23-af6a-d2f1c3e6d7c7")
 		)
 		(instances
-			(project ""
+			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR0131")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -27376,72 +27220,6 @@
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 405.13 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9e509f4-ddf2-48fa-8b1f-a9d0ce84a653")
-		(property "Reference" "#PWR0132"
-			(at 405.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 405.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 405.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 405.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b6b421b-5cd6-40eb-ae07-6bb1eeb5dd45")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
