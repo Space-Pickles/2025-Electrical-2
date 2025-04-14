@@ -10269,12 +10269,6 @@
 		(uuid "5b0f9425-12c5-4edd-9e22-f825e2b7cca8")
 	)
 	(junction
-		(at 66.04 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b877d75-2595-455c-98a5-d33aa83a9512")
-	)
-	(junction
 		(at 398.78 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10437,7 +10431,7 @@
 		(uuid "c16482a3-d51c-4dfe-bab3-7a58e926635b")
 	)
 	(junction
-		(at 64.77 40.64)
+		(at 64.77 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1df9be9-cb3b-453f-8cf0-9e2aae9f336b")
@@ -11060,7 +11054,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 43.18) (xy 48.26 43.18)
+			(xy 43.18 43.18) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11070,7 +11064,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 24.13) (xy 72.39 24.13)
+			(xy 46.99 24.13) (xy 72.39 24.13)
 		)
 		(stroke
 			(width 0)
@@ -11330,16 +11324,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 24.13) (xy 66.04 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4599843e-3dbd-4ebb-9294-390bab439aa0")
-	)
-	(wire
-		(pts
 			(xy 58.42 232.41) (xy 58.42 229.87)
 		)
 		(stroke
@@ -11510,7 +11494,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 38.1) (xy 43.18 38.1)
+			(xy 43.18 38.1) (xy 67.31 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11780,7 +11764,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 41.91) (xy 64.77 40.64)
+			(xy 64.77 44.45) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -12350,7 +12334,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 35.56) (xy 67.31 26.67)
+			(xy 67.31 38.1) (xy 67.31 26.67)
 		)
 		(stroke
 			(width 0)
@@ -12760,16 +12744,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 35.56) (xy 48.26 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c147f2df-9434-4dd3-9e5b-141d146fbe83")
-	)
-	(wire
-		(pts
 			(xy 391.16 36.83) (xy 408.94 36.83)
 		)
 		(stroke
@@ -12907,16 +12881,6 @@
 			(type default)
 		)
 		(uuid "ca43a223-8608-4bb9-9cb1-1f9606145a9b")
-	)
-	(wire
-		(pts
-			(xy 48.26 35.56) (xy 67.31 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae8b4dd-df27-436c-8649-0c77d6aae1fa")
 	)
 	(wire
 		(pts
@@ -13130,16 +13094,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 22.86) (xy 66.04 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc8119e7-e8b4-4ce5-932d-0cc32b7eb854")
-	)
-	(wire
-		(pts
 			(xy 187.96 39.37) (xy 187.96 43.18)
 		)
 		(stroke
@@ -13210,16 +13164,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 48.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e619a682-edf3-431b-9790-63c0cc22697e")
-	)
-	(wire
-		(pts
 			(xy 120.65 63.5) (xy 120.65 33.02)
 		)
 		(stroke
@@ -13230,7 +13174,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 40.64) (xy 71.12 40.64)
+			(xy 64.77 43.18) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -13310,7 +13254,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 40.64) (xy 71.12 36.83)
+			(xy 71.12 43.18) (xy 71.12 36.83)
 		)
 		(stroke
 			(width 0)
@@ -13427,16 +13371,6 @@
 			(type default)
 		)
 		(uuid "f4caf8d2-901f-4cf9-8753-2f8ce06a0379")
-	)
-	(wire
-		(pts
-			(xy 48.26 40.64) (xy 64.77 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f50f2f21-6b34-43b7-95ea-ce47bcec4156")
 	)
 	(wire
 		(pts
@@ -13681,28 +13615,6 @@
 		(uuid "0d4e741e-babd-40f5-a4ba-41ed9aae9bef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 231.1618 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_IN"
-		(shape input)
-		(at 66.04 22.86 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f5fc449-5baf-4f20-b592-49a36305b482")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 12.6781 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20317,7 +20229,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 64.77 41.91 180)
+		(at 64.77 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20326,15 +20238,6 @@
 		(fields_autoplaced yes)
 		(uuid "69b5a3c0-17a4-42d4-956d-d42ad0357bd0")
 		(property "Reference" "TP3"
-			(at 67.31 43.9419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
 			(at 67.31 46.4819 0)
 			(effects
 				(font
@@ -20343,8 +20246,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "TestPoint"
+			(at 67.31 49.0219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 59.69 41.91 0)
+			(at 59.69 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20353,7 +20265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 41.91 0)
+			(at 59.69 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20362,7 +20274,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 64.77 41.91 0)
+			(at 64.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22776,7 +22688,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "969951ac-079c-4d1d-966f-e2266f538d6b")
 		(property "Reference" "R4"
 			(at 50.8 11.43 90)
