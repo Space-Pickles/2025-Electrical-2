@@ -9107,12 +9107,6 @@
 		(uuid "237ad5fa-cc0d-4e5f-8a58-e2720e5c9b3c")
 	)
 	(junction
-		(at 213.36 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3006c78f-2e5d-442b-b213-f196e4d579c8")
-	)
-	(junction
 		(at 170.18 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10546,16 +10540,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 233.68) (xy 213.36 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "700e31ae-ea37-4805-ba0c-0cee9d9a2f0f")
-	)
-	(wire
-		(pts
 			(xy 335.28 40.64) (xy 342.9 40.64)
 		)
 		(stroke
@@ -10646,7 +10630,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 243.84) (xy 204.47 243.84)
+			(xy 204.47 243.84) (xy 220.98 243.84)
 		)
 		(stroke
 			(width 0)
@@ -11153,16 +11137,6 @@
 			(type default)
 		)
 		(uuid "bcbd4a87-5ae2-4d49-84ac-64c6d0b1899e")
-	)
-	(wire
-		(pts
-			(xy 220.98 243.84) (xy 213.36 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be4dfb52-b44d-4e55-a696-c8f3c5ef383b")
 	)
 	(wire
 		(pts
@@ -13248,7 +13222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 224.79 183.1848 0)
 			(effects
 				(font
@@ -15232,7 +15206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 248.412 142.24 90)
 			(effects
 				(font
@@ -20943,6 +20917,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 213.36 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3fd2c41-bb5c-4435-94e0-0e8b8d65f72a")
+		(property "Reference" "#PWR028"
+			(at 213.36 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "942c6236-c436-420c-ad70-9cb90f19e3dc")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 359.41 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24149,7 +24189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 244.602 144.78 90)
 			(effects
 				(font
@@ -26433,7 +26473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 234.95 183.1848 0)
 			(effects
 				(font
