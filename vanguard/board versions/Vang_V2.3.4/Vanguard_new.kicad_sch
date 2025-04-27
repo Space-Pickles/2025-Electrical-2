@@ -9635,7 +9635,7 @@
 		(uuid "3ef33725-b6ad-4e79-80ab-5707dc1933f3")
 	)
 	(junction
-		(at 228.6 77.47)
+		(at 208.28 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41924e3f-789b-4309-b9fd-4c7375708c67")
@@ -9947,7 +9947,7 @@
 		(uuid "eddef857-0d2a-4f33-b5b2-4608f4f05c21")
 	)
 	(junction
-		(at 228.6 74.93)
+		(at 208.28 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efb77e95-31d5-4a01-8d3a-1c575d4931c5")
@@ -10528,7 +10528,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 74.93) (xy 207.01 74.93)
+			(xy 196.85 74.93) (xy 208.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -10568,7 +10568,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 72.39) (xy 228.6 74.93)
+			(xy 208.28 69.85) (xy 208.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10628,7 +10628,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 72.39) (xy 212.09 72.39)
+			(xy 196.85 72.39) (xy 208.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10848,16 +10848,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 77.47) (xy 228.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5721249c-e359-466a-8208-d3be5c03a9a9")
-	)
-	(wire
-		(pts
 			(xy 146.05 40.64) (xy 166.37 40.64)
 		)
 		(stroke
@@ -11048,16 +11038,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 74.93) (xy 207.01 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d9f7af8-93d9-47de-9b7e-aa52a464038d")
-	)
-	(wire
-		(pts
 			(xy 335.28 40.64) (xy 342.9 40.64)
 		)
 		(stroke
@@ -11098,7 +11078,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 162.56) (xy 328.93 162.56)
+			(xy 326.39 162.56) (xy 328.93 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11225,16 +11205,6 @@
 			(type default)
 		)
 		(uuid "8105424d-671f-4656-a622-e2690cd0eed6")
-	)
-	(wire
-		(pts
-			(xy 212.09 74.93) (xy 228.6 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82901fee-8d10-471b-acfa-e16fe5c0212a")
 	)
 	(wire
 		(pts
@@ -11658,7 +11628,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 77.47) (xy 234.95 77.47)
+			(xy 208.28 74.93) (xy 214.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11728,7 +11698,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 77.47) (xy 228.6 80.01)
+			(xy 208.28 74.93) (xy 208.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -12108,16 +12078,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 72.39) (xy 212.09 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f87ed0-20ca-4fcb-9125-91e46636de09")
-	)
-	(wire
-		(pts
 			(xy 285.75 222.25) (xy 297.18 222.25)
 		)
 		(stroke
@@ -12168,7 +12128,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 74.93) (xy 234.95 74.93)
+			(xy 208.28 72.39) (xy 214.63 72.39)
 		)
 		(stroke
 			(width 0)
@@ -12634,7 +12594,7 @@
 	)
 	(global_label "TX0"
 		(shape output)
-		(at 234.95 77.47 0)
+		(at 214.63 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12644,7 +12604,7 @@
 		)
 		(uuid "1af2a36c-8efe-4ce7-a8b3-badf6ccdb472")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3218 77.47 0)
+			(at 221.0018 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +12682,7 @@
 	)
 	(global_label "RX0"
 		(shape input)
-		(at 234.95 74.93 0)
+		(at 214.63 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12732,7 +12692,7 @@
 		)
 		(uuid "37e966cf-6f7b-404c-a73f-19e14f8d9798")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.6242 74.93 0)
+			(at 221.3042 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13118,7 +13078,7 @@
 	)
 	(global_label "SWITCHOUT"
 		(shape input)
-		(at 327.66 162.56 90)
+		(at 326.39 162.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13128,7 +13088,7 @@
 		)
 		(uuid "75c6263a-d2b3-40d5-b39e-ef58e46c3556")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.66 149.1124 90)
+			(at 326.39 149.1124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17185,7 +17145,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 243.84 72.39 270)
+		(at 223.52 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17194,7 +17154,7 @@
 		(fields_autoplaced yes)
 		(uuid "43042368-c423-425c-ad51-f1bb128e850c")
 		(property "Reference" "#PWR0148"
-			(at 240.03 72.39 0)
+			(at 219.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17203,7 +17163,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 248.92 72.39 0)
+			(at 228.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 72.39 0)
+			(at 223.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17220,7 +17180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 72.39 0)
+			(at 223.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17229,7 +17189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 243.84 72.39 0)
+			(at 223.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17657,7 +17617,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 232.41 72.39 0)
+		(at 212.09 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17665,7 +17625,7 @@
 		(dnp no)
 		(uuid "523a01d7-65b8-47d4-a88a-d6405452bd0b")
 		(property "Reference" "D5"
-			(at 230.8225 80.01 0)
+			(at 210.5025 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17673,7 +17633,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 231.648 68.072 0)
+			(at 211.328 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17682,7 +17642,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 232.41 72.39 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17691,7 +17651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 72.39 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17700,7 +17660,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 232.41 72.39 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17709,7 +17669,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 232.41 72.39 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21227,7 +21187,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 243.84 80.01 270)
+		(at 223.52 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21236,7 +21196,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d6b432b-786a-44da-88db-0db3b56367a5")
 		(property "Reference" "#PWR0163"
-			(at 240.03 80.01 0)
+			(at 219.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21245,7 +21205,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 248.92 80.01 0)
+			(at 228.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21253,7 +21213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 80.01 0)
+			(at 223.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21262,7 +21222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 80.01 0)
+			(at 223.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21271,7 +21231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 243.84 80.01 0)
+			(at 223.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23489,7 +23449,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 72.39 270)
+		(at 219.71 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23497,7 +23457,7 @@
 		(dnp no)
 		(uuid "b7e078ba-5e34-4a2e-a729-f3be953e7b20")
 		(property "Reference" "R13"
-			(at 240.03 72.39 90)
+			(at 219.71 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23505,7 +23465,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 240.284 70.104 90)
+			(at 219.964 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23513,7 +23473,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.03 70.612 90)
+			(at 219.71 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23522,7 +23482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 72.39 0)
+			(at 219.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23531,7 +23491,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 240.03 72.39 0)
+			(at 219.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24024,7 +23984,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 80.01 270)
+		(at 219.71 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24032,7 +23992,7 @@
 		(dnp no)
 		(uuid "c4286fd1-67b2-4bd2-b18a-a8f6ee0b288c")
 		(property "Reference" "R11"
-			(at 240.03 80.01 90)
+			(at 219.71 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24040,7 +24000,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 240.284 82.296 90)
+			(at 219.964 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24048,7 +24008,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.03 78.232 90)
+			(at 219.71 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24057,7 +24017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 80.01 0)
+			(at 219.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24066,7 +24026,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 240.03 80.01 0)
+			(at 219.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24968,7 +24928,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PMEG6020ER")
-		(at 298.45 214.63 270)
+		(at 298.45 214.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24976,7 +24936,7 @@
 		(dnp no)
 		(uuid "d728edef-85eb-4642-8846-13f2a7496304")
 		(property "Reference" "D17"
-			(at 288.29 216.916 0)
+			(at 308.61 212.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24984,7 +24944,7 @@
 			)
 		)
 		(property "Value" "PMEG6020ER"
-			(at 290.83 216.916 0)
+			(at 306.07 212.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24992,7 +24952,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 294.005 214.63 0)
+			(at 302.895 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25505,7 +25465,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 232.41 80.01 0)
+		(at 212.09 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25514,7 +25474,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbaf4d94-ba17-431f-8e00-c49e2f7de071")
 		(property "Reference" "D3"
-			(at 230.8225 87.63 0)
+			(at 210.5025 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25522,7 +25482,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 230.8225 85.09 0)
+			(at 210.5025 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25530,7 +25490,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 232.41 80.01 0)
+			(at 212.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25539,7 +25499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 80.01 0)
+			(at 212.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25548,7 +25508,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 232.41 80.01 0)
+			(at 212.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25557,7 +25517,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 232.41 80.01 0)
+			(at 212.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8410,16 +8410,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 38.1) (xy 101.6 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a7ba92-d4e1-490d-978b-4edec97f4b6f")
-	)
-	(wire
-		(pts
 			(xy 212.09 74.93) (xy 228.6 74.93)
 		)
 		(stroke
@@ -8440,7 +8430,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 157.48) (xy 314.96 158.75)
+			(xy 314.96 157.48) (xy 320.04 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8800,6 +8790,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 40.64) (xy 283.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3882d3-37e5-4db4-b823-e0af90105b56")
+	)
+	(wire
+		(pts
 			(xy 158.75 129.54) (xy 158.75 130.81)
 		)
 		(stroke
@@ -8890,16 +8890,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 157.48) (xy 316.23 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5c5beb7-d4bb-4e29-811c-08570fb8277d")
-	)
-	(wire
-		(pts
 			(xy 165.1 33.02) (xy 201.93 33.02)
 		)
 		(stroke
@@ -8950,7 +8940,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 38.1) (xy 93.98 38.1)
+			(xy 92.71 38.1) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9414,6 +9404,28 @@
 			)
 		)
 	)
+	(global_label "pwr"
+		(shape input)
+		(at 336.55 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b6f80fb-82a9-478a-87f9-5e4a0b5072b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 153.7691 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CD"
 		(shape input)
 		(at 242.57 123.19 0)
@@ -9427,28 +9439,6 @@
 		(uuid "327d0765-4849-4c06-99d3-43c8e304ef5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 248.0952 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P_IN"
-		(shape input)
-		(at 93.98 38.1 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "361999eb-9629-45f7-a320-5516e375fc7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 30.9419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,28 +9488,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P_OUT"
-		(shape input)
-		(at 97.79 38.1 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4159580f-0302-471c-bb7b-9cce6d8bcbcf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 29.2486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9700,28 +9668,6 @@
 			)
 		)
 	)
-	(global_label "P_IN"
-		(shape input)
-		(at 314.96 158.75 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74343383-e0b0-4ea1-b791-03bc9939d83b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.96 151.5919 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "STAR_RED"
 		(shape output)
 		(at 212.09 138.43 180)
@@ -9894,6 +9840,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwr"
+		(shape input)
+		(at 276.86 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2116086-3565-47f2-92b9-23c89c3a8cae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.86 34.3891 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10109,28 +10077,6 @@
 		(uuid "e905ac33-7a30-44b0-96b7-931aecef2606")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.1385 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P_OUT"
-		(shape input)
-		(at 337.82 160.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "edd0e3ee-a491-40b3-a639-215f45dbe3a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.82 151.1686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,6 +10537,73 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 314.96 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dcdf004-74ff-483d-9d92-250ba1ca29a9")
+		(property "Reference" "#PWR030"
+			(at 318.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 311.15 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 314.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b842acac-35db-4d05-9cae-f2604501c317")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19972,73 +19985,6 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 283.21 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f985b210-9fea-4a4e-a7b2-50b72ba1f685")
-		(property "Reference" "#PWR0130"
-			(at 287.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 279.4 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 283.21 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3032f166-097f-4c49-891b-606d4eed0883")
-		)
-		(instances
-			(project "Vanguard_new"
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
