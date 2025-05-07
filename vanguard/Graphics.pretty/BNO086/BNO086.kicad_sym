@@ -37,7 +37,7 @@
     (property "MP" "BNO086" (id 12) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Description" "\nAccelerometer, Gyroscope, Magnetometer, Temperature, 9 Axis Sensor I2C, SPI Output\n" (id 13) (at 0 0 0)
+    (property "Description" "\n                        \n                            Accelerometer, Gyroscope, Magnetometer, Temperature, 9 Axis Sensor I2C, SPI Output\n                        \n" (id 13) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Availability" "In Stock" (id 14) (at 0 0 0)
